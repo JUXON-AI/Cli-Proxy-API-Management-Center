@@ -101,7 +101,6 @@
   },
   "nav": {
     "dashboard": "Dashboard",
-    "quick_start": "Quick Start",
     "ai_providers": "AI Providers",
     "auth_files": "Auth Files",
     "oauth": "OAuth Login",
@@ -122,7 +121,6 @@
   },
   "nav_meta": {
     "dashboard": "Operations overview",
-    "quick_start": "APIKEY.FUN setup",
     "ai_providers": "Upstream model routing",
     "auth_files": "Auth files & credentials",
     "oauth": "OAuth authorization",
@@ -895,7 +893,6 @@
     "kimi_ai_oauth_polling_error": "Failed to check authentication status:",
     "kimi_oauth_title": "Kimi China (kimi.com)",
     "kimi_oauth_button": "Log in to Kimi China",
-    "kimi_sign_up_button": "Sign Up Now",
     "kimi_oauth_hint": "Authorize your kimi.com China account via device login. Authentication files are saved automatically. International accounts must use the separate kimi.ai login.",
     "kimi_open_link": "Open Link",
     "kimi_copy_link": "Copy Link",
@@ -955,10 +952,6 @@
     "remote_access_disabled": "This login method is not available for remote access. Please access from localhost.",
     "kimi_oauth_name": "Kimi China",
     "kimi_ai_oauth_name": "Kimi International",
-    "sponsor_site_china": "China",
-    "sponsor_site_international": "International",
-    "sponsor_kimi_caption": "Device code sign-in · accounts are separate per site",
-    "sponsor_sign_up": "Join Open Platform",
     "method_device": "Device code",
     "method_browser": "Browser sign-in",
     "method_plugin": "Plugin",
@@ -975,7 +968,6 @@
     "waiting_background_hint": "Closing this window won't stop sign-in",
     "restart_login": "Start over",
     "success_saved_hint": "The credential is saved — manage it in Auth Files.",
-    "sign_up_prompt": "No account yet?",
     "copied": "Copied"
   },
   "stats": {
@@ -1424,7 +1416,6 @@
           "title": "Network Configuration",
           "description": "Proxy, retry, and routing settings",
           "proxy_url": "Proxy URL",
-          "proxy_url_sponsor_hint": "No suitable proxy?",
           "request_retry": "Request Retry Count",
           "max_retry_credentials": "Max Retry Credentials",
           "max_retry_credentials_hint": "Leave empty to keep it unset. Set to 0 or a negative integer to try all available credentials.",
@@ -2118,11 +2109,6 @@
     "sponsor": {
       "protocolSummary": "Anthropic / OpenAI / Gemini / Codex API (Responses)",
       "detailHint": "{{provider}} is persisted into the matching API key configs by protocol; this view manages them together.",
-      "registerLink": "Register here",
-      "registerNow": "Register now",
-      "kimiPromo": "New users get API credit worth 10% of their first successful top-up, up to ¥1000. Offer ends September 30.",
-      "dashboardLink": "Dashboard",
-      "emptyRegisterHint": "No configuration yet.",
       "apiKeyHint": "This key is only written to the selected group/protocol config.",
       "usageCheck": "Check usage",
       "usageChecking": "Checking",
@@ -2185,14 +2171,6 @@
         "openai": "OpenAI Compatible",
         "gemini": "Gemini",
         "codexResponses": "Codex API (Responses)"
-      },
-      "double11": {
-        "badge": "Double 11 · Limited time",
-        "title": "{{provider}} Double 11 Top-up Bonus",
-        "description": "Top up on {{provider}} during the event and get an extra {{percent}}% of your top-up as bonus credit.",
-        "bonus": "Top-up bonus",
-        "cta": "Join now",
-        "ctaAria": "Join now: {{provider}} Double 11 top-up event (opens in a new tab)"
       }
     },
     "status": {

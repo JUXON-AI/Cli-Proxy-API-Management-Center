@@ -101,7 +101,6 @@
   },
   "nav": {
     "dashboard": "Pano",
-    "quick_start": "Hızlı Başlangıç",
     "ai_providers": "AI Sağlayıcıları",
     "auth_files": "Kimlik Dosyaları",
     "oauth": "OAuth Girişi",
@@ -122,7 +121,6 @@
   },
   "nav_meta": {
     "dashboard": "İşletim Özeti",
-    "quick_start": "APIKEY.FUN Kurulumu",
     "ai_providers": "Yukarı Akış Model Yönlendirmesi",
     "auth_files": "Kimlik Dosyaları ve Kimlik Bilgileri",
     "oauth": "OAuth Yetkilendirmesi",
@@ -895,7 +893,6 @@
     "kimi_ai_oauth_polling_error": "Kimlik Doğrulama Durumu Kontrol Edilemedi:",
     "kimi_oauth_title": "Kimi Çin (kimi.com)",
     "kimi_oauth_button": "Kimi Çin Hesabına Giriş Yap",
-    "kimi_sign_up_button": "Hemen Kaydol",
     "kimi_oauth_hint": "kimi.com Çin Hesabını Aygıt Girişiyle Yetkilendir. Kimlik Doğrulama Dosyaları Otomatik Kaydedilir. Uluslararası Hesaplar Ayrı kimi.ai Girişini Kullanmalıdır.",
     "kimi_open_link": "Bağlantıyı Aç",
     "kimi_copy_link": "Bağlantıyı Kopyala",
@@ -955,10 +952,6 @@
     "remote_access_disabled": "Bu Giriş Yöntemi Uzak Erişim için Kullanılamaz. Lütfen localhost Üzerinden Eriş.",
     "kimi_oauth_name": "Kimi Çin",
     "kimi_ai_oauth_name": "Kimi Uluslararası",
-    "sponsor_site_china": "Çin",
-    "sponsor_site_international": "Uluslararası",
-    "sponsor_kimi_caption": "Aygıt Koduyla Giriş · Hesaplar Site Başına Ayrıdır",
-    "sponsor_sign_up": "Açık Platforma Katıl",
     "method_device": "Aygıt Kodu",
     "method_browser": "Tarayıcıyla Giriş",
     "method_plugin": "Eklenti",
@@ -975,7 +968,6 @@
     "waiting_background_hint": "Bu Pencereyi Kapatmak Girişi Durdurmaz",
     "restart_login": "Baştan Başla",
     "success_saved_hint": "Kimlik Bilgisi Kaydedildi. Kimlik Dosyalarında Yönet.",
-    "sign_up_prompt": "Henüz Hesap Yok Mu?",
     "copied": "Kopyalandı"
   },
   "stats": {
@@ -1424,7 +1416,6 @@
           "title": "Ağ Yapılandırması",
           "description": "Proxy, Yeniden Deneme ve Yönlendirme Ayarları",
           "proxy_url": "Proxy URL",
-          "proxy_url_sponsor_hint": "Uygun Proxy Yok Mu?",
           "request_retry": "İstek Yeniden Deneme Sayısı",
           "max_retry_credentials": "En Fazla Yeniden Deneme Kimlik Bilgisi",
           "max_retry_credentials_hint": "Ayarlanmamış Bırakmak için Boş Bırak. Kullanılabilir Tüm Kimlik Bilgilerini Denemek için 0 veya Negatif Tam Sayı Ayarla.",
@@ -2118,11 +2109,6 @@
     "sponsor": {
       "protocolSummary": "Anthropic / OpenAI / Gemini / Codex API (Responses)",
       "detailHint": "{{provider}} Protokole Göre Eşleşen API Anahtarı Yapılandırmalarına Yazılır. Bu Görünüm Onları Birlikte Yönetir.",
-      "registerLink": "Buradan Kaydol",
-      "registerNow": "Hemen Kaydol",
-      "kimiPromo": "Yeni Kullanıcılar İlk Başarılı Yüklemelerinin %10'u Değerinde API Kredisi Alır. Üst Sınır ¥1000. Teklif 30 Eylül'de Biter.",
-      "dashboardLink": "Pano",
-      "emptyRegisterHint": "Henüz Yapılandırma Yok.",
       "apiKeyHint": "Bu Anahtar Yalnızca Seçilen Grup/Protokol Yapılandırmasına Yazılır.",
       "usageCheck": "Kullanımı Kontrol Et",
       "usageChecking": "Kontrol Ediliyor",
@@ -2185,14 +2171,6 @@
         "openai": "OpenAI Uyumlu",
         "gemini": "Gemini",
         "codexResponses": "Codex API (Responses)"
-      },
-      "double11": {
-        "badge": "11.11 · Sınırlı süre",
-        "title": "{{provider}} 11.11 Yükleme Bonusu",
-        "description": "Kampanya süresince {{provider}} hesabınıza yükleme yapın, yükleme tutarının %{{percent}} kadarını ek kredi olarak kazanın.",
-        "bonus": "Yükleme bonusu",
-        "cta": "Hemen katıl",
-        "ctaAria": "Hemen katıl: {{provider}} 11.11 yükleme kampanyası (yeni sekmede açılır)"
       }
     },
     "status": {

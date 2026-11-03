@@ -101,7 +101,6 @@
   },
   "nav": {
     "dashboard": "Bảng điều khiển",
-    "quick_start": "Bắt đầu nhanh",
     "ai_providers": "AI Provider",
     "auth_files": "File xác thực",
     "oauth": "Đăng nhập OAuth",
@@ -122,7 +121,6 @@
   },
   "nav_meta": {
     "dashboard": "Tổng quan vận hành",
-    "quick_start": "Thiết lập APIKEY.FUN",
     "ai_providers": "Định tuyến model upstream",
     "auth_files": "File xác thực & credential",
     "oauth": "Ủy quyền OAuth",
@@ -812,7 +810,6 @@
     "antigravity_oauth_polling_error": "Không thể kiểm tra trạng thái xác thực:",
     "kimi_oauth_title": "Kimi OAuth",
     "kimi_oauth_button": "Đăng nhập bằng Kimi",
-    "kimi_sign_up_button": "Đăng ký ngay",
     "kimi_oauth_hint": "Đăng nhập nhanh vào Kimi qua ủy quyền thiết bị. File xác thực được lấy và lưu tự động.",
     "kimi_open_link": "Mở liên kết",
     "kimi_copy_link": "Sao chép liên kết",
@@ -872,10 +869,6 @@
     "remote_access_disabled": "Phương thức đăng nhập này không khả dụng cho truy cập từ xa. Vui lòng truy cập từ localhost.",
     "kimi_oauth_name": "Kimi Trung Quốc",
     "kimi_ai_oauth_name": "Kimi quốc tế",
-    "sponsor_site_china": "Trung Quốc",
-    "sponsor_site_international": "Quốc tế",
-    "sponsor_kimi_caption": "Đăng nhập bằng mã thiết bị · tài khoản hai trang tách biệt",
-    "sponsor_sign_up": "Đăng ký Open Platform",
     "method_device": "Mã thiết bị",
     "method_browser": "Đăng nhập qua trình duyệt",
     "method_plugin": "Plugin",
@@ -892,7 +885,6 @@
     "waiting_background_hint": "Đóng cửa sổ không làm gián đoạn đăng nhập",
     "restart_login": "Bắt đầu lại",
     "success_saved_hint": "Đã lưu credential — quản lý trong File xác thực.",
-    "sign_up_prompt": "Chưa có tài khoản?",
     "copied": "Đã sao chép",
     "devin_oauth_cancel": "Hủy đăng nhập Devin",
     "devin_oauth_cancelled": "Đã hủy đăng nhập Devin.",
@@ -1245,7 +1237,6 @@
           "session_affinity": "Định tuyến Session Affinity",
           "ws_auth": "Xác thực WebSocket",
           "ws_auth_desc": "Bật xác thực WebSocket (/v1/ws)",
-          "proxy_url_sponsor_hint": "Chưa có proxy phù hợp?",
           "max_retry_interval_hint": "Đặt thành 0 hoặc số nguyên âm để bỏ qua thời gian chờ cooldown giữa các lượt thử lại."
         },
         "streaming": {
@@ -1994,10 +1985,6 @@
     "sponsor": {
       "protocolSummary": "Anthropic / OpenAI / Gemini / Codex API (Responses)",
       "detailHint": "{{provider}} được lưu vào cấu hình API key tương ứng theo giao thức; khung xem này quản lý chúng cùng nhau.",
-      "registerLink": "Đăng ký tại đây",
-      "registerNow": "Đăng ký ngay",
-      "dashboardLink": "Bảng điều khiển",
-      "emptyRegisterHint": "Chưa có cấu hình nào.",
       "apiKeyHint": "Key này chỉ được ghi vào cấu hình nhóm/giao thức đã chọn.",
       "usageCheck": "Kiểm tra mức sử dụng",
       "usageChecking": "Đang kiểm tra",
@@ -2060,15 +2047,6 @@
         "openai": "Tương thích OpenAI",
         "gemini": "Gemini",
         "codexResponses": "Codex API (Responses)"
-      },
-      "kimiPromo": "Người dùng mới nạp tiền lần đầu thành công sẽ được tặng hạn mức API trị giá 10% số tiền nạp, tối đa ¥1000. Ưu đãi kết thúc vào ngày 30 tháng 9.",
-      "double11": {
-        "badge": "Ưu đãi 11.11 · Có hạn",
-        "title": "{{provider}} khuyến mãi nạp tiền 11.11",
-        "description": "Nạp tiền vào {{provider}} trong thời gian sự kiện để được tặng thêm {{percent}}% giá trị nạp.",
-        "bonus": "Tặng thêm khi nạp",
-        "cta": "Tham gia ngay",
-        "ctaAria": "Tham gia ngay sự kiện nạp tiền 11.11 của {{provider}} (mở trong thẻ mới)"
       }
     },
     "status": {
