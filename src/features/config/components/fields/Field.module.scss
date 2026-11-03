@@ -357,7 +357,10 @@
 
 @media (prefers-reduced-motion: reduce) {
   .fieldsRoot :global(.input),
-  .selectControl > button[aria-haspopup='listbox'],
+  .selectControl > button[aria-haspopup='listbox'] {
+    transition: none;
+  }
+
   .fieldHighlightActive {
     animation: none;
     outline: 2px solid color-mix(in srgb, var(--text-primary) 32%, transparent);
