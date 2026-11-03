@@ -101,7 +101,6 @@
   },
   "nav": {
     "dashboard": "儀表板",
-    "quick_start": "快速開始",
     "ai_providers": "AI 供應商",
     "auth_files": "驗證檔案",
     "oauth": "OAuth 登入",
@@ -122,7 +121,6 @@
   },
   "nav_meta": {
     "dashboard": "運行總覽",
-    "quick_start": "APIKEY.FUN 快速設定",
     "ai_providers": "上游模型路由",
     "auth_files": "Auth 檔案與憑證",
     "oauth": "OAuth 授權登入",
@@ -554,7 +552,6 @@
     "reset_confirm_button": "確認重置",
     "reset_not_confirmed": "尚未確認額度重置成功，請重新整理額度後再決定是否重試。",
     "reset_cooldown_failed": "額度已重置，但代理冷卻清除失敗。請在原連線的認證檔案頁面使用「清除冷卻」，不要再次消耗重置卡。",
-
     "reset_success": "已重置「{{name}}」的 Codex 配額",
     "reset_failed": "重置「{{name}}」的 Codex 配額失敗：{{message}}",
     "plan_plus": "Plus",
@@ -894,7 +891,6 @@
     "kimi_ai_oauth_polling_error": "檢查驗證狀態失敗:",
     "kimi_oauth_title": "Kimi 中國站（kimi.com）",
     "kimi_oauth_button": "登入 Kimi 中國站",
-    "kimi_sign_up_button": "立即註冊",
     "kimi_oauth_hint": "透過裝置授權登入 kimi.com 中國站，自動取得並儲存驗證檔案。國際站帳號請使用獨立的 kimi.ai 登入入口。",
     "kimi_open_link": "開啟連結",
     "kimi_copy_link": "複製連結",
@@ -980,10 +976,6 @@
     "remote_access_disabled": "遠端存取不支援此登入方式，請從本地（localhost）存取",
     "kimi_oauth_name": "Kimi 中國站",
     "kimi_ai_oauth_name": "Kimi 國際站",
-    "sponsor_site_china": "中國站",
-    "sponsor_site_international": "國際站",
-    "sponsor_kimi_caption": "裝置碼登入 · 兩站帳號互不相通",
-    "sponsor_sign_up": "註冊開放平台",
     "method_device": "裝置碼",
     "method_browser": "瀏覽器授權",
     "method_plugin": "外掛",
@@ -1000,7 +992,6 @@
     "waiting_background_hint": "關閉視窗不會中斷授權",
     "restart_login": "重新開始",
     "success_saved_hint": "憑證已儲存，可在驗證檔案頁管理。",
-    "sign_up_prompt": "還沒有帳號？",
     "copied": "已複製",
     "login_another_account": "登入另一個帳號",
     "view_auth_files": "查看驗證檔案"
@@ -1451,7 +1442,6 @@
           "title": "網路設定",
           "description": "代理、重試和路由設定",
           "proxy_url": "代理 URL",
-          "proxy_url_sponsor_hint": "沒有合適的代理？",
           "request_retry": "請求重試次數",
           "max_retry_credentials": "最大重試憑證數",
           "max_retry_credentials_hint": "留空表示不設定；設為 0 或負整數表示嘗試所有可用憑證。",
@@ -2145,11 +2135,6 @@
     "sponsor": {
       "protocolSummary": "Anthropic / OpenAI / Gemini / Codex API (Responses)",
       "detailHint": "{{provider}} 會按協議分別寫入對應的 API Key 設定,此處只做聚合管理。",
-      "registerLink": "點此註冊",
-      "registerNow": "立即註冊",
-      "kimiPromo": "新用戶首次成功儲值，贈送儲值金額 10% 的 API 額度，最高贈送 ¥1000，優惠截至 9 月 30 日",
-      "dashboardLink": "控制面板",
-      "emptyRegisterHint": "尚未新增設定",
       "apiKeyHint": "此金鑰只會寫入目前選擇的分組/協議設定。",
       "usageCheck": "查詢額度",
       "usageChecking": "查詢中",
@@ -2212,14 +2197,6 @@
         "openai": "OpenAI 相容",
         "gemini": "Gemini",
         "codexResponses": "Codex API (Responses)"
-      },
-      "double11": {
-        "badge": "雙 11 限時",
-        "title": "{{provider}} 雙 11 儲值狂歡",
-        "description": "活動期間在 {{provider}} 儲值，額外贈送儲值金額 {{percent}}% 的額度，先到先得。",
-        "bonus": "儲值加贈",
-        "cta": "立即參與",
-        "ctaAria": "立即參與 {{provider}} 雙 11 儲值活動（在新分頁開啟）"
       }
     },
     "status": {

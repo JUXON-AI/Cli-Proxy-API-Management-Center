@@ -101,7 +101,6 @@
   },
   "nav": {
     "dashboard": "대시보드",
-    "quick_start": "빠른 시작",
     "ai_providers": "AI 공급자",
     "auth_files": "인증 파일",
     "oauth": "OAuth 로그인",
@@ -122,7 +121,6 @@
   },
   "nav_meta": {
     "dashboard": "운영 개요",
-    "quick_start": "APIKEY.FUN 설정",
     "ai_providers": "업스트림 모델 라우팅",
     "auth_files": "인증 파일 및 자격 증명",
     "oauth": "OAuth 권한 부여",
@@ -895,7 +893,6 @@
     "kimi_ai_oauth_polling_error": "인증 상태 확인 실패:",
     "kimi_oauth_title": "Kimi 중국(kimi.com)",
     "kimi_oauth_button": "Kimi 중국 로그인",
-    "kimi_sign_up_button": "지금 가입하기",
     "kimi_oauth_hint": "기기 로그인을 통해 kimi.com 중국 계정을 인증합니다. 인증 파일이 자동으로 저장됩니다. 글로벌 계정은 별도의 kimi.ai 로그인을 사용해야 합니다.",
     "kimi_open_link": "링크 열기",
     "kimi_copy_link": "링크 복사",
@@ -955,10 +952,6 @@
     "remote_access_disabled": "원격 접속에서는 이 로그인 방식을 사용할 수 없습니다. 로컬(localhost)에서 접속하세요.",
     "kimi_oauth_name": "Kimi 중국",
     "kimi_ai_oauth_name": "Kimi 글로벌",
-    "sponsor_site_china": "중국",
-    "sponsor_site_international": "글로벌",
-    "sponsor_kimi_caption": "기기 코드 로그인 · 두 사이트의 계정은 서로 별개입니다",
-    "sponsor_sign_up": "오픈 플랫폼 가입",
     "method_device": "기기 코드",
     "method_browser": "브라우저 로그인",
     "method_plugin": "플러그인",
@@ -975,7 +968,6 @@
     "waiting_background_hint": "창을 닫아도 로그인은 계속됩니다",
     "restart_login": "다시 시작",
     "success_saved_hint": "자격 증명이 저장되었습니다. 인증 파일에서 관리할 수 있습니다.",
-    "sign_up_prompt": "계정이 없나요?",
     "copied": "복사됨"
   },
   "stats": {
@@ -1424,7 +1416,6 @@
           "title": "네트워크 설정",
           "description": "프록시, 재시도 및 라우팅 설정",
           "proxy_url": "프록시 URL",
-          "proxy_url_sponsor_hint": "적합한 프록시가 없나요?",
           "request_retry": "요청 재시도 횟수",
           "max_retry_credentials": "최대 재시도 자격 증명 수",
           "max_retry_credentials_hint": "설정하지 않으려면 비워 두세요. 사용 가능한 모든 자격 증명을 시도하려면 0 또는 음의 정수를 입력하세요.",
@@ -2118,11 +2109,6 @@
     "sponsor": {
       "protocolSummary": "Anthropic / OpenAI / Gemini / Codex API (Responses)",
       "detailHint": "{{provider}} 공급자는 프로토콜별로 일치하는 API 키 설정에 저장되며, 이 화면에서 통합 관리합니다.",
-      "registerLink": "여기서 등록",
-      "registerNow": "지금 등록",
-      "kimiPromo": "신규 사용자는 첫 충전 성공 시 충전 금액의 10%에 해당하는 API 크레딧(최대 ¥1000)을 받을 수 있습니다. 혜택은 9월 30일에 종료됩니다.",
-      "dashboardLink": "대시보드",
-      "emptyRegisterHint": "아직 설정이 없습니다.",
       "apiKeyHint": "이 키는 선택한 그룹/프로토콜 설정에만 저장됩니다.",
       "usageCheck": "사용량 확인",
       "usageChecking": "확인 중",
@@ -2185,14 +2171,6 @@
         "openai": "OpenAI 호환",
         "gemini": "Gemini",
         "codexResponses": "Codex API (Responses)"
-      },
-      "double11": {
-        "badge": "11.11 한정 이벤트",
-        "title": "{{provider}} 11.11 충전 보너스",
-        "description": "이벤트 기간 동안 {{provider}}에서 충전하면 충전 금액의 {{percent}}%를 추가 크레딧으로 드립니다.",
-        "bonus": "충전 보너스",
-        "cta": "지금 참여하기",
-        "ctaAria": "지금 참여하기: {{provider}} 11.11 충전 이벤트 (새 탭에서 열림)"
       }
     },
     "status": {
