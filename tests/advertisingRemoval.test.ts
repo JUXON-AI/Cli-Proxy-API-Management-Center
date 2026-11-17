@@ -34,7 +34,7 @@ describe('management without advertising', () => {
   test('empty provider groups offer configuration instead of registration', async () => {
     const i18n = createInstance();
     await i18n.init({ lng: 'en', resources: { en: { translation: en } } });
-    for (const id of ['apikeyFun', 'fennoAI', 'qiniuCloud', 'kimi'] as const) {
+    for (const id of ['apikeyFun', 'fennoAI', 'qiniuCloud', 'kimi', 'aiCodeMirror'] as const) {
       const markup = renderToStaticMarkup(
         createElement(
           I18nextProvider,
