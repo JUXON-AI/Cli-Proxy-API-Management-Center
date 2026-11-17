@@ -15,7 +15,6 @@ import { SectionLogging } from '@/features/config/components/sections/SectionLog
 import { SectionNetwork } from '@/features/config/components/sections/SectionNetwork';
 import { SectionPayload } from '@/features/config/components/sections/SectionPayload';
 import { SectionStreaming } from '@/features/config/components/sections/SectionStreaming';
-import { SPONSORS } from '@/features/config/sponsors';
 
 const translations = i18n.cloneInstance({ lng: 'en' });
 const render = (element: ReturnType<typeof createElement>) =>
@@ -60,23 +59,20 @@ describe('section headers', () => {
   }
 });
 
-describe('proxy URL sponsor', () => {
-  test('stays a visible, keyboard-reachable link outside the input description', () => {
-    const sponsor = SPONSORS[0];
-    expect(sponsor).toBeDefined();
+describe('proxy URL configuration', () => {
+  test('keeps the input accessible without a sponsor link', () => {
     for (const Section of [SectionCommon, SectionNetwork]) {
       const row = rowOf(
         renderSection(Section as ComponentType<Record<string, unknown>>),
         'proxyUrl'
       );
-      const link = row.match(/<a\b[^>]*>/)?.[0] ?? '';
-      expect(link).toContain(`href="${escapeText(sponsor.url)}"`);
-      expect(link).toContain('rel="noopener noreferrer sponsored"');
-      expect(row).toContain(t('sections.network.proxy_url_sponsor_hint'));
-      // No tooltip holding a link, and nothing visually hidden around it.
+      expect(row).not.toMatch(/<a\b|sponsored|bestproxy/i);
       expect(row).not.toContain('data-info-tip');
       expect(row).not.toContain('visually-hidden');
       const input = row.match(/<input\b[^>]*>/)?.[0] ?? '';
+      const inputId = input.match(/id="([^"]+)"/)?.[1];
+      expect(inputId).toBeTruthy();
+      expect(row).toContain(`for="${inputId}"`);
       expect(input).not.toContain('aria-describedby');
     }
   });
